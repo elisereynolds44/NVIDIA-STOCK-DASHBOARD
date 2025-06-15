@@ -6,14 +6,17 @@ An interactive multi-tab dashboard analyzing NVIDIA's stock performance, correla
 
 ## Features
 
-- **Stock Price Analysis:**  
-  Interactive time series plots for NVIDIA and competitors with slider-based zoom and date range selection.
+- **Stock Price Analysis (Price Trends Tab):**  
+  Interactive time series plots for NVIDIA and its competitors with slider-based zoom, dropdown company selection, and growth normalized to 100 for easy comparison.
 
-- **Earnings/Event Zoom:**  
-  Focus on key market dates like earnings reports to explore how price trends shift around them.
+- **Earnings/Event Zoom (NVIDIA Focus Tab):**  
+  Visualize NVIDIA’s raw stock price movements and zoom into specific earnings report weeks to examine volatility and market response. Includes a simulated volume chart to highlight trading activity.
 
 - **Learn About Stocks Tab:**  
-  Beginner-friendly markdown explanations and examples to teach core investing and market concepts.
+  Beginner-friendly markdown explanations and real-world examples of key stock terms such as closing price, volume, and adjusted close—designed to enhance financial literacy through interactivity.
+
+- **Company Deep Dive Tab:**  
+  Dropdown-based summaries of key companies in the tech sector, including what they do, what they sell, and why they matter—offering helpful context for interpreting stock trends and market influence.
 
 ---
 
@@ -32,6 +35,7 @@ finalproject-take2/
 ├── app.py
 ├── callbacks.py
 ├── tabs.py
+├── NVIDIA Project Write Up.pdf
 ├── visuals/
 │   ├── price_plot.py
 │   ├── heatmap.py
@@ -54,8 +58,8 @@ finalproject-take2/
 
 ## Getting Started
 
-1. **Clone the Repository**  
-   `git clone https://github.com/your-username/nvidia-stock-dashboard.git`
+1. **Clone the Repository (SSH)**  
+   `git clone 'git@github.com:elisereynolds44/NVIDIA-STOCK-DASHBOARD.git`
 
 2. **Install Dependencies**  
    `pip install -r requirements.txt`
@@ -64,7 +68,7 @@ finalproject-take2/
    `python app.py`
 
 4. **Open in Browser**  
-   Visit `http://127.0.0.1:8050/`
+   Visit `http://127.0.0.1:8050`
 
 ---
 
@@ -78,7 +82,7 @@ finalproject-take2/
 
 ## 👩‍💻 Author
 
-**Elise Reynolds** – [@your-github](https://github.com/your-github)
+**Elise Reynolds** – [@elisereynolds44](https://github.com/elisereynolds44)
 
 ---
 
